@@ -12,8 +12,8 @@
  '(package-selected-packages
    '(cape consult corfu dumb-jump edit-indirect evil-collection
 	  evil-goggles evil-smartparens general gruber-darker-theme
-	  magit marginalia orderless projectile queue rust-mode
-	  smartparens undo-fu undo-fu-session vertico vundo
+	  magit marginalia markdown-mode orderless projectile queue
+	  rust-mode smartparens undo-fu undo-fu-session vertico vundo
 	  zenburn-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

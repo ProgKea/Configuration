@@ -116,6 +116,9 @@
 ;; languages
 (use-package rust-mode)
 
+(use-package markdown-mode
+  :mode ("\\.md\\'" . markdown-mode))
+
 (use-package odin-mode
   :ensure nil)
 
