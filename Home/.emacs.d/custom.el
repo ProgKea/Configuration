@@ -10,10 +10,10 @@
      "01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd"
      default))
  '(package-selected-packages
-   '(cape consult corfu dumb-jump edit-indirect evil-collection
-	  evil-goggles evil-smartparens general gruber-darker-theme
-	  magit marginalia markdown-mode orderless projectile queue
-	  rust-mode smartparens undo-fu undo-fu-session vertico vundo
+   '(cape consult corfu dumb-jump evil-collection evil-goggles
+	  evil-smartparens general go-mode gruber-darker-theme magit
+	  marginalia markdown-mode orderless projectile rust-mode
+	  undo-fu undo-fu-session vertico vundo yaml-mode
 	  zenburn-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

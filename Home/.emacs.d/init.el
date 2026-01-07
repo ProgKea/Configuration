@@ -116,8 +116,12 @@
 ;; languages
 (use-package rust-mode)
 
+(use-package go-mode)
+
 (use-package markdown-mode
   :mode ("\\.md\\'" . markdown-mode))
+
+(use-package yaml-mode)
 
 (use-package odin-mode
   :ensure nil)
@@ -126,7 +130,8 @@
   :after (rust-mode)
   :ensure nil
   :hook ((rust-mode . eglot-ensure)
-	 (odin-mode . eglot-ensure)))
+	 (odin-mode . eglot-ensure)
+	 (go-mode   . eglot-ensure)))
 
 (use-package dumb-jump
   :hook (xref-backend-functions . dumb-jump-xref-activate)
