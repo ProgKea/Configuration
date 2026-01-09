@@ -9,12 +9,7 @@
    '("972f792651d32b0506481b9e87b2fbc9b732ae9da2527562668c6e7d149fefda"
      "01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd"
      default))
- '(package-selected-packages
-   '(cape consult corfu dumb-jump evil-collection evil-goggles
-	  evil-smartparens general go-mode gruber-darker-theme magit
-	  marginalia markdown-mode orderless projectile rust-mode
-	  undo-fu undo-fu-session vertico vundo yaml-mode
-	  zenburn-theme)))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

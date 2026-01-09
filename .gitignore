@@ -1,1 +1,5 @@
 configurator
+Home/.emacs.d/*
+!Home/.emacs.d/custom.el
+!Home/.emacs.d/init.el
+!Home/.emacs.d/packages-not-in-repositories
